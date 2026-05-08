@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer__inner">
         <p className="footer__tagline">
-          Designed &amp; built by Yizhou · Powered by curiosity (and pasta)
+          Designed &amp; built by Yizhou
         </p>
         <span className="footer__copy">© {year}</span>
       </div>

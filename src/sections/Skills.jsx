@@ -20,7 +20,7 @@ const SKILL_GROUPS = [
   {
     category: 'Tools, Testing & Hardware',
     skills: ['Git / GitHub', 'Linux', 'GDB', 'Wireshark', 'JIRA / Confluence', 'CppUTest', 'Makefiles', 'PlatformIO', 'Altium', 'Oscilloscopes'],
-    variant: 'exploring',
+    variant: 'core',
   },
 ]
 
