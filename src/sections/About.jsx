@@ -6,9 +6,16 @@ import './About.css'
 const PROFILE_SRC = '/website/profile.png'
 
 const PERSONAL_PHOTOS = [
-  { src: '/website/personal-1.png', caption: 'Cooking' },
-  { src: '/website/personal-2.png', caption: 'Hiking' },
-  { src: '/website/personal-3.png', caption: 'Piano' },
+  { src: '/website/personal-3.png', caption: 'Mountain close to Hope 2026' },
+  { src: '/website/personal-2.png', caption: 'Elfin Lake 2025' },
+  { src: '/website/personal-4.png', caption: 'Chief 2025' },
+  { src: '/website/personal-5.png', caption: 'Grouse Grind 2025' },
+  { src: '/website/personal-6.png', caption: 'Eagle Bluffs 2025' },
+  { src: '/website/personal-7.png', caption: 'Chief 2024' },
+  { src: '/website/personal-9.png', caption: 'Lindeman Lake 2024' },
+  { src: '/website/personal-1.png', caption: 'Tunnel Bluffs 2024' },
+  { src: '/website/personal-8.png', caption: 'Lynn Canyon 2022' },
+  { src: '/website/personal-10.png', caption: 'CCC Bellinis :)' },
 ]
 
 export default function About() {
@@ -69,7 +76,7 @@ export default function About() {
             <h2 className="section-title">Nice to meet you</h2>
             <div className="about__bio">
               <p>
-                Hi! I&apos;m Yizhou — you can say &ldquo;Yee-zoo&rdquo; or the Chinese way, both work! I&apos;m a
+                Hi! I&apos;m Yizhou, a
                 Computer Engineering graduate from UBC who enjoys sitting where software, firmware, and hardware
                 meet.
               </p>
@@ -79,8 +86,7 @@ export default function About() {
                 care about the details that keep a system honest.
               </p>
               <p>
-                Away from the desk, I&apos;m usually at the piano, the gym or pool, or in the kitchen tinkering with
-                pasta until the sauce tastes right.
+                Away from the desk, I&apos;m usually at the piano, the pool, or in the kitchen trying out new recipes.
               </p>
             </div>
             <a href="/website/resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn--ghost about__resume">

@@ -17,11 +17,11 @@ const SKILL_GROUPS = [
     skills: ['Git / GitHub', 'Linux', 'Quartus', 'ModelSim', 'Wireshark'],
     variant: 'core',
   },
-  {
-    category: 'Currently Exploring',
-    skills: ['React', 'Node.js', 'OS & Networking', 'Digital Systems', 'Databases'],
-    variant: 'exploring',
-  },
+  // {
+  //   category: 'Currently Exploring',
+  //   skills: ['Distributed S', 'Digital Systems', 'Databases'],
+  //   variant: 'exploring',
+  // },
 ]
 
 export default function Skills() {
