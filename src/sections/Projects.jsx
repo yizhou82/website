@@ -8,7 +8,7 @@ const PROJECTS = [
     title: 'ARM32 CPU',
     image: '/website/project-arm32.png',
     description:
-      'Designed and implemented a fully functional 32-bit ARM CPU from scratch in SystemVerilog, synthesized and tested on an FPGA. Covers the full pipeline including instruction fetch, decode, execute, memory, and writeback stages.',
+      'Designed and implemented a 32-bit ARM CPU in SystemVerilog, then synthesized and validated the full fetch/decode/execute/memory/writeback pipeline on FPGA with ModelSim and Quartus.',
     tags: ['SystemVerilog', 'FPGA', 'Quartus', 'ModelSim', 'Computer Architecture'],
     github: 'https://github.com/yizhou82',
     live: null,
@@ -19,8 +19,8 @@ const PROJECTS = [
     title: 'AquaSentinel',
     image: '/website/project-aquasentinel.png',
     description:
-      'Capstone project — a low-cost IoT device that monitors and detects water quality in remote or underserved areas. Designed to be affordable and deployable where traditional water testing infrastructure is unavailable.',
-    tags: ['IoT', 'Embedded Systems', 'ESP32', 'Hardware', 'PlatformIO'],
+      'Led a team of 5 to build a low-cost IoT water-quality platform for underserved regions, with ESP32 firmware, OTA updates, FreeRTOS scheduling, and mesh-to-gateway communication over ESP-NOW, BLE, LoRa, and MQTT.',
+    tags: ['IoT', 'ESP32', 'FreeRTOS', 'MQTT', 'BLE', 'LoRa', 'Altium'],
     github: 'https://github.com/yizhou82',
     live: null,
     inProgress: false,
@@ -30,7 +30,7 @@ const PROJECTS = [
     title: 'FreeRTOS Scheduler',
     image: '/website/project-freertos.png',
     description:
-      'Implemented core real-time scheduling concepts on a Raspberry Pi using FreeRTOS, including Earliest Deadline First (EDF), Server Resource Policy (SRP), Constant Bandwidth Server (CBS), and multiprocessing task management.',
+      'Implemented real-time scheduling concepts on Raspberry Pi with FreeRTOS, including Earliest Deadline First (EDF), Server Resource Policy (SRP), Constant Bandwidth Server (CBS), and multi-task management.',
     tags: ['FreeRTOS', 'Raspberry Pi', 'C', 'RTOS', 'Embedded Systems'],
     github: 'https://github.com/yizhou82',
     live: null,
@@ -41,7 +41,7 @@ const PROJECTS = [
     title: '2D Exploration Game',
     image: '/website/project-2dgame.png',
     description:
-      'An in-progress 2D game built in Java where players freely move through and explore an open world. Focused on clean game architecture, tile-based rendering, and smooth character movement.',
+      'An in-progress Java game focused on open-world exploration, tile-based rendering, and clean architecture for smooth player movement and future feature expansion.',
     tags: ['Java', 'Game Development', 'In Progress'],
     github: 'https://github.com/yizhou82',
     live: null,
@@ -74,7 +74,7 @@ export default function Projects() {
         <p className="section-label">02 / Projects</p>
         <h2 className="section-title">Things I&apos;ve built</h2>
         <p className="projects__lede">
-          A mix of coursework depth, capstone hardware, and side experiments — each taught me something I still carry.
+          A mix of coursework depth, capstone hardware, and side experiments - each taught me something I still carry.
         </p>
 
         <div className="projects__grid">
@@ -115,13 +115,13 @@ export default function Projects() {
                           <GitHubIcon />
                           <span className="project-card__gh-label">GitHub</span>
                           <span className="project-card__arrow" aria-hidden="true">
-                            ↗
+                            ?
                           </span>
                         </a>
                       )}
                       {p.live && (
                         <a href={p.live} target="_blank" rel="noopener noreferrer" className="project-card__live">
-                          Live <span aria-hidden="true">↗</span>
+                          Live <span aria-hidden="true">?</span>
                         </a>
                       )}
                     </div>
@@ -146,7 +146,7 @@ export default function Projects() {
             rel="noopener noreferrer"
             className="btn btn--ghost"
           >
-            More on GitHub ↗
+            More on GitHub ?
           </a>
         </div>
       </div>

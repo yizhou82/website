@@ -4,24 +4,24 @@ import './Skills.css'
 const SKILL_GROUPS = [
   {
     category: 'Languages',
-    skills: ['Java', 'Python', 'C / C++', 'SystemVerilog', 'JavaScript', 'HTML / CSS'],
+    skills: ['C / C++', 'Python', 'Java', 'C#', 'JavaScript', 'SQL', 'Bash', 'Assembly'],
     variant: 'core',
   },
   {
-    category: 'Embedded & Hardware',
-    skills: ['Arduino', 'ESP32', 'Raspberry Pi', 'FPGA', 'FreeRTOS', 'PlatformIO'],
+    category: 'Embedded & Systems',
+    skills: ['FreeRTOS', 'ARM Cortex-M', 'STM32', 'ESP32', 'Multithreading', 'Real-Time Systems'],
     variant: 'core',
   },
   {
-    category: 'Tools & Dev',
-    skills: ['Git / GitHub', 'Linux', 'Quartus', 'ModelSim', 'Wireshark'],
+    category: 'Protocols & Networking',
+    skills: ['CAN', 'SPI', 'I2C', 'UART', 'TCP/UDP', 'MQTT', 'BLE', 'LoRa', 'ESP-NOW'],
     variant: 'core',
   },
-  // {
-  //   category: 'Currently Exploring',
-  //   skills: ['Distributed S', 'Digital Systems', 'Databases'],
-  //   variant: 'exploring',
-  // },
+  {
+    category: 'Tools, Testing & Hardware',
+    skills: ['Git / GitHub', 'Linux', 'GDB', 'Wireshark', 'JIRA / Confluence', 'CppUTest', 'Makefiles', 'PlatformIO', 'Altium', 'Oscilloscopes'],
+    variant: 'exploring',
+  },
 ]
 
 export default function Skills() {
@@ -33,8 +33,8 @@ export default function Skills() {
         <p className="section-label">03 / Skills</p>
         <h2 className="section-title">Tools I reach for</h2>
         <p className="skills__lede">
-          The list shifts over time — right now this is an honest snapshot of where I&apos;m strongest and what
-          I&apos;m stretching into next.
+          Most of my recent work sits at the firmware and systems boundary, with day-to-day tooling across debugging,
+          networking, and hardware validation.
         </p>
 
         <div className="skills__grid">
