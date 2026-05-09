@@ -8,7 +8,7 @@ const PROFILE_SRC = '/website/profile.png'
 const PERSONAL_PHOTOS = [
   { src: '/website/personal-3.png', caption: 'Mountain close to Hope 2026' },
   { src: '/website/personal-2.png', caption: 'Elfin Lake 2025' },
-  // { src: '/website/personal-4.png', caption: 'Chief 2025' },
+  { src: '/website/personal-4.png', caption: 'Chief 2025' },
   { src: '/website/personal-5.png', caption: 'Grouse Grind 2025' },
   { src: '/website/personal-6.png', caption: 'Eagle Bluffs 2025' },
   { src: '/website/personal-7.png', caption: 'Chief 2024' },
